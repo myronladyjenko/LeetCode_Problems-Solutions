@@ -31,13 +31,7 @@ class Solution {
                     li.add(numOne);
                     li.add(nums[k]);
                     li.add(nums[m]);
-
                     list.add(li);
-                    // Collections.sort(li);
-
-                    // if (!list.contains(li)) {
-                    //     list.add(li);
-                    // }
 
                     while (k < m && nums[m] == nums[m - 1]) {
                         m--;
